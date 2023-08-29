@@ -1,0 +1,15 @@
+{
+  "messageBoards": "ENGINEERING WORKS - 15th July - 20th September there will be no services between Eccles - Weaste. Replacement bus services will be in operation. Please see TfGM.com for more info.",
+  "nextTrams": {
+    "Victoria": [
+      { "Dest": "Altrincham", "Carriages": 2, "Status": "Due", "Wait": 2 },
+      { "Dest": "Bury", "Carriages": 2, "Status": "Due", "Wait": 11 },
+      { "Dest": "Bury", "Carriages": 1, "Status": "Due", "Wait": 13 }
+    ],
+    "Exchange Square": [
+      { "Dest": "East Didsbury", "Carriages": 1, "Status": "Due", "Wait": 2 },
+      { "Dest": "Rochdale", "Carriages": 1, "Status": "Due", "Wait": 11 },
+      { "Dest": "Rochdale", "Carriages": 1, "Status": "Due", "Wait": 12 }
+    ]
+  }
+}
