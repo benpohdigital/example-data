@@ -1,22 +1,28 @@
 {
-  "alerts": {
-    "message": "ENGINEERING WORKS - 15th July - 20th September there will be no services between Eccles - Weaste. Replacement bus services will be in operation. Please see TfGM.com for more info."
-  },
   "trams": [
     {
-      "station": "Victoria",
-      "items": [
-        { "dest": "Altrincham", "carriages": 2, "status": "Due", "wait": 2 },
-        { "dest": "Bury", "carriages": 2, "status": "Due", "wait": 11 },
-        { "dest": "Bury", "carriages": 1, "status": "Due", "wait": 13 }
-      ]
+      "alerts": {
+        "message": "ENGINEERING WORKS - 15th July - 20th September there will be no services between Eccles - Weaste. Replacement bus services will be in operation. Please see TfGM.com for more info."
+      }
     },
     {
-      "station": "Exchange Square",
-      "items": [
-        { "dest": "East Didsbury", "carriages": 1, "status": "Due", "wait": 2 },
-        { "dest": "Rochdale", "carriages": 1, "status": "Due", "wait": 11 },
-        { "dest": "Rochdale", "carriages": 1, "status": "Due", "wait": 12 }
+      "nextTrams" : [
+        {
+          "station": "Victoria",
+          "items": [
+            { "dest": "Altrincham", "carriages": 2, "status": "Due", "wait": 2 },
+            { "dest": "Bury", "carriages": 2, "status": "Due", "wait": 11 },
+            { "dest": "Bury", "carriages": 1, "status": "Due", "wait": 13 }
+          ]
+        },
+        {
+          "station": "Exchange Square",
+          "items": [
+            { "dest": "East Didsbury", "carriages": 1, "status": "Due", "wait": 2 },
+            { "dest": "Rochdale", "carriages": 1, "status": "Due", "wait": 11 },
+            { "dest": "Rochdale", "carriages": 1, "status": "Due", "wait": 12 }
+          ]
+        }
       ]
     }
   ]
