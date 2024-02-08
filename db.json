@@ -49,6 +49,45 @@
 		]
 	},
 	"session": {
-		"attendees": []
+		"attendees": [
+			{
+				"isMe": true,
+				"title": "Mr",
+				"firstname": "Ben",
+				"lastname": "Palmer",
+				"email": "ben@ohdigital.co.uk",
+				"phone": "+44759825582",
+				"member": true,
+				"fields": [
+					{ "label": "Accessibility", "value": "Need a ramp" },
+					{ "label": "Misc", "value": "Allergic to nuts" }
+				],
+				"rates": [
+					{ "label": "Member rate", "cost": 15, "earlybird": true }
+				],
+				"price": 15
+			},
+			{
+				"isMe": false,
+				"title": "Mr",
+				"firstname": "Dave",
+				"lastname": "Scott",
+				"email": "dave@ohdigital.co.uk",
+				"phone": "+44161999999",
+				"member": false,
+				"fields": [
+					{ "label": "Accessibility", "value": "" },
+					{ "label": "Misc", "value": "" }
+				],
+				"rates": [
+					{ "label": "Non-member rate", "cost": 25 },
+					{
+						"label": "Non-member rate with CPD certificate",
+						"cost": 20
+					}
+				],
+				"price": 25
+			}
+		]
 	}
 }
