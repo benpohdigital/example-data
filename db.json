@@ -1,29 +1,51 @@
 {
-  "trams": [
-    {
-      "alerts": {
-        "message": "ENGINEERING WORKS - 15th July - 20th September there will be no services between Eccles - Weaste. Replacement bus services will be in operation. Please see TfGM.com for more info."
-      }
-    },
-    {
-      "nextTrams" : [
-        {
-          "station": "Victoria",
-          "items": [
-            { "dest": "Altrincham", "carriages": 2, "status": "Due", "wait": 2 },
-            { "dest": "Bury", "carriages": 2, "status": "Due", "wait": 11 },
-            { "dest": "Bury", "carriages": 1, "status": "Due", "wait": 13 }
-          ]
-        },
-        {
-          "station": "Exchange Square",
-          "items": [
-            { "dest": "East Didsbury", "carriages": 1, "status": "Due", "wait": 2 },
-            { "dest": "Rochdale", "carriages": 1, "status": "Due", "wait": 11 },
-            { "dest": "Rochdale", "carriages": 1, "status": "Due", "wait": 12 }
-          ]
-        }
-      ]
-    }
-  ]
+	"events": [
+		{
+			"id": 1,
+			"title": "Event title here",
+			"date": "12/12/24",
+			"blurb": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.",
+			"image": "https://cdn.vuetifyjs.com/images/parallax/material.jpg",
+			"fields": [
+				{ "label": "Accessibility", "value": "" },
+				{ "label": "Misc", "value": "" }
+			]
+		},
+		{
+			"id": 1,
+			"title": "Another event here",
+			"date": "02/08/24",
+			"blurb": "Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.",
+			"image": "https://cdn.vuetifyjs.com/images/parallax/material.jpg",
+			"fields": [
+				{ "label": "Accessibility", "value": "" },
+				{ "label": "Misc", "value": "" }
+			]
+		}
+	],
+	"member": {
+		"rates": [
+			{ "label": "Non-member rate", "cost": 25.0 },
+			{ "label": "Non-member rate with CPD certificate", "cost": 20.0 }
+		],
+		"cta": {
+			"title": "Potential Saving",
+			"subtitle": "You could save an additional £10 by becoming an ACAMH member.",
+			"link": "Signup Now",
+			"url": "#"
+		}
+	},
+	"login": {
+		"isMe": false,
+		"title": "Mr",
+		"firstname": "John",
+		"lastname": "Smith",
+		"email": "johnsmith@gmail.com",
+		"phone": "+44161999999",
+		"member": false,
+		"fields": [
+			{ "label": "Accessibility", "value": "Needs a ramp" },
+			{ "label": "Misc", "value": "Allergic to nuts" }
+		]
+	}
 }
