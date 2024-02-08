@@ -47,5 +47,8 @@
 			{ "label": "Accessibility", "value": "Needs a ramp" },
 			{ "label": "Misc", "value": "Allergic to nuts" }
 		]
+	},
+	"session": {
+		"attendees": []
 	}
 }
