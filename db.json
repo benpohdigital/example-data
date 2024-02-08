@@ -24,6 +24,7 @@
 		}
 	],
 	"member": {
+		"isMember": false,
 		"rates": [
 			{ "label": "Non-member rate", "cost": 25.0 },
 			{ "label": "Non-member rate with CPD certificate", "cost": 20.0 }
